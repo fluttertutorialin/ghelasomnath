@@ -7,8 +7,12 @@ class ContactUsModule extends ChildModule {
   @override
   List<Bind> get binds => [Bind((i) => ContactUsStore(i.get()))];
 
+  //static Inject get to => Inject<ContactUsModule>.of();
+
   @override
   List<Router> get routers => [
-        Router(contactUsRoute, child: (_, args) => ContactUsPage()),
+        Router(contactUsRoute,
+            child: (context, args) => ContactUsPage(title: args.data),
+            transition: TransitionType.rotate)
       ];
 }

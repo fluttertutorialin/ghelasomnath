@@ -9,6 +9,10 @@ import 'package:ghelasomnath/ui/widget/common_scaffold.dart';
 import 'package:ghelasomnath/util/string.dart';
 
 class ContactUsPage extends StatefulWidget {
+  final String title;
+
+  const ContactUsPage({Key key, this.title}) : super(key: key);
+
   @override
   createState() => _ContactUsState();
 }
@@ -48,5 +52,5 @@ class _ContactUsState extends ModularState<ContactUsPage, ContactUsStore> {
   Widget build(BuildContext context) => _scaffold();
 
   _scaffold() =>
-      CommonScaffold(appTitle: titleContactUs, bodyData: _bodyData());
+      CommonScaffold(appTitle: widget.title, bodyData: _bodyData());
 }

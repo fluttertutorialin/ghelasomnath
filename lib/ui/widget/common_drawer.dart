@@ -62,7 +62,13 @@ class CommonDrawerState extends State<CommonDrawer> {
               CustomListView(
                   onPressed: () {
                     Modular.to.pop();
-                    Modular.to.pushNamed(contactUsRoute);
+                    Modular.to.pushNamed(contactUsRoute, arguments: contactUsRoute);
+
+                    /*Navigator.pushNamed(
+                      context,
+                      contactUsRoute,
+                      arguments: titleContactUs,
+                    );*/
                   },
                   name: drawerContactUs,
                   leading: Icon(FeatherIcons.phone, color: Colors.brown)),
