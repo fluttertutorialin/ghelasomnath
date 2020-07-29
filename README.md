@@ -1,3 +1,3 @@
 # ghelasomnath
 
-This application used to firebase (image upload, Live Event), flutter moduar,
+This application used to firebase (image upload, Live Event) and flutter moduar.
