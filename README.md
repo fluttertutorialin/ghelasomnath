@@ -11,7 +11,7 @@ Modular.to.pushNamed(contactUsRoute, arguments: contactUsRoute);
 Navigator.pushNamed(context, contactUsRoute, arguments: titleContactUs);
 
 
-TODO MAIN MODULE ARGUMENT PASS
+MAIN MODULE ARGUMENT PASS
 
 Router('/other/:text', child: (_, args) => OtherPage(text: args.params['text']))
 
