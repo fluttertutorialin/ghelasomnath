@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "495269632242",
+    "firebase_url": "https://ghelasomnath-90f3d.firebaseio.com",
+    "project_id": "ghelasomnath-90f3d",
+    "storage_bucket": "ghelasomnath-90f3d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495269632242:android:c589635fcdd3ee6722186b",
+        "android_client_info": {
+          "package_name": "com.darsan.ghelasomnath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495269632242-ap2o1u0mf1ri7ib5k4e89of694jo8kl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.darsan.ghelasomnath",
+            "certificate_hash": "7a7593bdcd75eb2e6c9b158db124015623d41f3c"
+          }
+        },
+        {
+          "client_id": "495269632242-qude6c93d7ko13n3c8b4p4v3s2jh75tu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv27ql-k97-E0ni11J-ZZAgLUSKm5LMs0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495269632242-qude6c93d7ko13n3c8b4p4v3s2jh75tu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
