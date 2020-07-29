@@ -13,6 +13,7 @@ Navigator.pushNamed(context, contactUsRoute, arguments: titleContactUs);
 
 TODO MAIN MODULE ARGUMENT PASS
 
-Router('/other/:text', child: (_, args) => OtherPage(text: args.params['text'])), \n
+Router('/other/:text', child: (_, args) => OtherPage(text: args.params['text']))
+
 Modular.to.pushNamed("/other/${homeController.text}");
 
