@@ -34,6 +34,9 @@ class AppModule extends MainModule {
   @override
   List<Router> get routers => [
         Router(firstLaunchRoute, child: (_, args) => SplashPage()),
+        /*Router('/other/:text', child: (_, args) => OtherPage(text: args.params['text'])),
+          Modular.to.pushNamed("/other/${homeController.text}");
+        */
         Router(homeRoute, module: TempleEventModule()),
         Router(historyRoute, module: HistoryModule()),
         Router(contactUsRoute, module: ContactUsModule()),
