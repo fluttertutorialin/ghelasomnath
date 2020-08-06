@@ -5,6 +5,8 @@ import 'package:ghelasomnath/app_module.dart';
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(ModularApp(module: AppModule()));
+
+  //TODO CHANGES
 }
 
 /*
