@@ -6,7 +6,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   runApp(ModularApp(module: AppModule()));
 
-  //TODO CHANGES
+  //TODO changes
 }
 
 /*
